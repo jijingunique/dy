@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "spring.datasource.test1",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.dynamic.datasource.DataSourceConfig",
+      "sourceMethod": "public javax.sql.DataSource testDataSource1() "
+    },
+    {
+      "name": "spring.datasource.test2",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.example.dynamic.datasource.DataSourceConfig",
+      "sourceMethod": "public javax.sql.DataSource testDataSource2() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
